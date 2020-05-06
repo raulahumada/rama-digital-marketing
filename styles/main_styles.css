@@ -642,7 +642,7 @@ section
 	border: solid 2px transparent;
 	line-height: 29px;
 	font-size: 14px;
-	color: rgba(255,255,255,1);
+	color: black	;
 	cursor: pointer;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -652,7 +652,7 @@ section
 }
 .home_slider_custom_dots li:not(.active):hover
 {
-	color: rgba(255,255,255,0.62);
+	color: darkgray;
 }
 .home_slider_custom_dots li:not(:last-of-type)
 {
@@ -660,7 +660,7 @@ section
 }
 .home_slider_custom_dots li.active
 {
-	border: solid 2px rgba(105,7,114,0.62);
+	border: solid 2px red;
 }
 .home_container
 {
